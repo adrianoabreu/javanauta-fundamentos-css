@@ -65,10 +65,18 @@ header{
     background-color: aqua;
 }
 
+.primeira-sessao {
+    width: 100%;
+    white-space: nowrap;
+    overflow-x: auto;
+}
+
 .primeira-sessao p {
     display: inline-block;
     height: 50px;
     width: 200px;
+    /*min-width: 100px;*/
+    /*max-width: 200px;*/
     line-height: 50px;
     text-align: center;
 }
