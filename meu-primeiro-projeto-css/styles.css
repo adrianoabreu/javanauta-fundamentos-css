@@ -64,3 +64,11 @@ header{
 #cabecalho {
     background-color: aqua;
 }
+
+.primeira-sessao p {
+    display: inline-block;
+    height: 50px;
+    width: 200px;
+    line-height: 50px;
+    text-align: center;
+}
