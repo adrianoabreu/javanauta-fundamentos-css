@@ -80,3 +80,34 @@ header{
     line-height: 50px;
     text-align: center;
 }
+
+.formulario-sessao {
+    margin: 25px auto;
+    max-width: 600px;
+}
+
+.formulario-sessao h2 {
+    text-align: center;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.formulario label {
+    font-weight: bold;
+}
+
+.formulario input, .formulario textarea {
+    padding: 8px;
+    border: 1px solid #5a5a5a;
+    border-radius: 8px;
+}
+
+.form-grupo {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
