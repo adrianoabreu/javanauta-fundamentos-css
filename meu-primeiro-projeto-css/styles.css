@@ -4,9 +4,16 @@
     box-sizing: border-box;
 }
 
+html {
+    font-size: 28px;
+}
+
 body {
     margin: 0;
     padding: 0;
+    height: 100vh;
+    /*height: 1200px;*/
+    /*height: 100%;*/
 }
 
 h1 {
@@ -45,7 +52,10 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 300px;
+    /*height: 300px; */
+    /*height: 50%; */
+    /*height: 50vh; */
+    /*width: 50vw; */
 }
 
 /* Maneira antiga de centralizar uma <div> 
@@ -58,7 +68,8 @@ header{
 */
 
 .cabecalho p {
-    font-size: 18px;
+    /*font-size: 18px;*/
+    font-size: 1rem;
 }
 
 #cabecalho {
@@ -69,6 +80,7 @@ header{
     width: 100%;
     white-space: nowrap;
     overflow-x: auto;
+    font-size: 18px;
 }
 
 .primeira-sessao p {
@@ -79,6 +91,8 @@ header{
     /*max-width: 200px;*/
     line-height: 50px;
     text-align: center;
+    font-size: 0.5em; /*relacionado ao tamanho de font da classe pai, no caso primeira-sessao*/
+    /*font-size: 0.5rem; relacionado ao tamanho de font da root, no caso html */
 }
 
 .container-conteudo-receita {
