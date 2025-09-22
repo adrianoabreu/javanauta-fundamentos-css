@@ -2,9 +2,12 @@
 
 :root {
     --cor-primaria: #fdfdfdf2;
+    --espacamento-mini: 8px;
     --espacamento-pequeno: 12px;
     --espacamento-medio: 16px;
     --espacamento-grande: 20px;
+    --arredondamento-pequeno: 8px;
+    --cor-primaria-botao: #007BFF;
 }
 
 * {
@@ -35,12 +38,10 @@ h1 {
 
 header p {
     font-size: 18px;
-
 }
 
 p {
     font-size: 18px;
-
 }
 
 header{
@@ -132,6 +133,7 @@ header{
 
 .formulario-sessao {
     margin: 25px auto;
+    padding: 15px;
     max-width: 600px;
 }
 
@@ -150,13 +152,40 @@ header{
 }
 
 .formulario input, .formulario textarea {
-    padding: 8px;
+    padding: var(--espacamento-mini);
     border: 1px solid #5a5a5a;
-    border-radius: 8px;
+    border-radius: var(--arredondamento-pequeno);
 }
 
 .form-grupo {
     display: flex;
     flex-direction: column;
     gap: 5px;
+}
+
+.btn-danger, .btn-primary, .btn-secondary {
+    border-radius: var(--arredondamento-pequeno);
+    padding: var(--espacamento-mini);
+    color: var(--cor-primaria);
+    border: 1px solid var(--cor-primaria-botao);
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.btn-primary {
+    background-color: var(--cor-primaria-botao);
+}
+
+.btn-secondary {
+    background-color: #6C757D;
+}
+
+.btn-danger {
+    background-color: #DC3545;
+}
+
+.submit-icon {
+    color: var(--cor-primaria);
+    margin-left: var(--espacamento-mini);
 }
