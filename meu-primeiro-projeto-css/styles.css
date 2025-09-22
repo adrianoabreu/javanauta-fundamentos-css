@@ -151,15 +151,21 @@ header{
 }
 
 .container-conteudo-receita {
-    display: flex;
-    justify-content: space-around;
+   /* display: flex;
+    justify-content: space-around;*/
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     margin: 30px;
     gap: 25px;
+    justify-content: center;
+    align-items: center;
+    max-width: 800px;
 }
 
 @media (max-width: 426px) {
     .container-conteudo-receita {
-        flex-direction: column;
+        /*flex-direction: column;*/
+        grid-template-columns: 1fr;
     }
 }
 
