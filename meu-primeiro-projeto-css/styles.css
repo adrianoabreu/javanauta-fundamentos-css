@@ -131,6 +131,24 @@ header{
     line-height: 25px;
 }
 
+.sessao-link {
+    margin: 30px;
+    line-height: 25px;
+}
+
+.link-estilizado {
+    text-decoration: none;
+    color: #d80a8d;
+}
+
+.link-estilizado:hover {
+    color: #71064a;
+}
+
+.link-estilizado:visited {
+    color: #5a5a5a;
+}
+
 .formulario-sessao {
     margin: 25px auto;
     padding: 15px;
@@ -177,6 +195,12 @@ header{
     background-color: var(--cor-primaria-botao);
 }
 
+.btn-primary:hover {
+    background-color: #013c7b;
+    border: 1px solid #013c7b;
+    color: #cccccc;
+}
+
 .btn-secondary {
     background-color: #6C757D;
 }
@@ -188,4 +212,8 @@ header{
 .submit-icon {
     color: var(--cor-primaria);
     margin-left: var(--espacamento-mini);
+}
+
+.submit-icon:hover {
+    color: #cccccc;
 }
