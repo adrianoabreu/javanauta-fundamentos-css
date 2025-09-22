@@ -30,6 +30,43 @@ body {
     background-color: var(--cor-primaria, #ff0000f2);
 }
 
+.barra-navegacao {
+     position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--espacamento-medio);
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.023);
+    width: 100%;
+}
+
+.navegacao-logo {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    display: flex;
+    color: var(--cor-primaria);
+    align-items: center;
+    gap: var(--espacamento-mini);
+}
+
+.navegacao-link {
+    list-style: none;
+    display: flex;
+    gap: var(--espacamento-grande);
+}
+
+.navegacao-link a {
+    text-decoration: none;
+    color: var(--cor-primaria);
+    font-weight: bold;
+}
+
+.navegacao-link a:hover {
+    color: #d80a8d;
+}
+
 h1 {
     color: rgb(109 39 249);
     margin: 10px;
